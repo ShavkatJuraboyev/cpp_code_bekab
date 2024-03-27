@@ -53,7 +53,7 @@ int main() {
 
     while (true) {
         backupFiles(sourceDir, destinationDir);
-        std::this_thread::sleep_for(std::chrono::seconds(36)); // har 24 soatda bir
+        std::this_thread::sleep_for(std::chrono::seconds(36)); // har 36 secuntda bir
     }
 
     return 0;
